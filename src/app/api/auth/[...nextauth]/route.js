@@ -1,5 +1,7 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
+import { sql } from "@vercel/postgres";
+import { compare } from "bcrypt";
 
 const authOptions = {
   session: {

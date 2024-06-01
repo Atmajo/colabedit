@@ -1,0 +1,19 @@
+.blinking-underscore {
+  display: inline-block;
+  width: 28px;
+  margin-left: 2px;
+  border-bottom: 7px solid #063c7a;
+  animation: blink-underscore 1s steps(1) infinite;
+}
+
+@keyframes blink-underscore {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@media not all and (min-width: 1370px) {
+  .hero-deco {
+      display: none;
+  }
+}
