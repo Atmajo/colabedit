@@ -2,7 +2,6 @@
 import { BackgroundBeams } from "@/components/ui/BackgroundBeams";
 import React from "react";
 import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
 import "@/components/Hero/hero-text.css";
 import CustomButton from "@/components/Button/CustomButton";
 import Link from "next/link";
