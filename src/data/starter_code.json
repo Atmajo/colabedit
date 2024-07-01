@@ -1,0 +1,17 @@
+{
+  "javascript": {
+    "code": "console.log(\"Hello, World!\");"
+  },
+  "typescript": {
+    "code": "console.log(\"Hello, World!\");"
+  },
+  "python": {
+    "code": "print(\"Hello, World!\")"
+  },
+  "java": {
+    "code": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
+  },
+  "c": {
+    "code": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
+  }
+}

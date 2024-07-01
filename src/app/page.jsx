@@ -37,7 +37,7 @@ const page = () => {
             }
             onClick={() => router.push("/login")}
           >
-            <span className="text-xl font-semibold">Log In</span>
+            <span className="text-xl font-semibold">Get Started</span>
           </button>
         </Link>
       </div>
